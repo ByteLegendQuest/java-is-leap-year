@@ -1,4 +1,4 @@
-# [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Control Flow
+# [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Calculation and Operators
 
 <details open='true'>
 <summary>English</summary>
@@ -17,6 +17,8 @@ If the year can be divided by 4 and is not also divisible by 100, it is a leap y
 If `year` is a leap year, return `true`; otherwise, return `false`.
 
 For example, 1999 is not a leap year; 2000 is a leap year; 1900 is not a leap year.
+
+**Note: `if`/`else` are not allowed; only logical operators are allowed.**
 
 
 - You can accomplish this challenge via any way below:
@@ -58,6 +60,8 @@ Any changes to files other than the following files will be rejected:**
 
  例如，1999年不是闰年；2000年是闰年；1900年不是闰年。
 
+ **注意：你不能使用`if`/`else`，只有逻辑运算符是允许的。**
+
 
 - 你可以使用以下任意一种方法完成挑战：
   - 初学者推荐：运行`git clone https://git.bytelegend.com/ByteLegendQuest/java-is-leap-year`将代码下载到本地，在本地使用IDE调试完成后复制到网页编辑器里提交。
@@ -95,6 +99,8 @@ Any changes to files other than the following files will be rejected:**
 
 例如，1999 年不是閏年； 2000年是閏年； 1900年不是閏年。
 
+**注意： `if` / `else`是不允許的；只允許使用邏輯運算符。**
+
 -   您可以通過以下任何方式完成此挑戰：
     -   建議初學者：運行`git clone https://github.com/ByteLegendQuest/java-is-leap-year`下載代碼，在本地 IDE 中完成挑戰，然後在 Web 編輯器中復制/粘貼/提交答案。
         -   如果你不知道怎麼做，你可以點擊[import project into IDEA](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import-vscode.md) 。
@@ -129,6 +135,8 @@ Un año es bisiesto si: Si el año se puede dividir por 400, es bisiesto. Si el 
 Si el `year` es un año bisiesto, devuelve `true` ; de lo contrario, devuelve `false` .
 
 Por ejemplo, 1999 no es un año bisiesto; 2000 es un año bisiesto; 1900 no es un año bisiesto.
+
+**Nota: `if` / `else` no están permitidos; solo se permiten operadores lógicos.**
 
 -   Puede lograr este desafío de cualquier manera a continuación:
     -   Recomendado para principiantes: ejecute `git clone https://github.com/ByteLegendQuest/java-is-leap-year` para descargar el código, finalice el desafío en su IDE local, luego copie/pegue/envíe la respuesta en el editor web.
@@ -165,12 +173,14 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 
 على سبيل المثال ، 1999 ليست سنة كبيسة ؛ 2000 سنة كبيسة ؛ 1900 ليست سنة كبيسة.
 
+**ملاحظة: `if` / `else` غير مسموح به ؛ يسمح فقط بالعوامل المنطقية.**
+
 -   يمكنك إنجاز هذا التحدي بأي طريقة أدناه:
     -   موصى به للمبتدئين: قم بتشغيل `git clone https://github.com/ByteLegendQuest/java-is-leap-year` لتنزيل الكود ، وإنهاء التحدي في IDE المحلي الخاص بك ، ثم نسخ / لصق / إرسال الإجابة في محرر الويب.
         -   إذا كنت لا تعرف كيف يمكنك النقر فوق [استيراد مشروع إلى IDEA](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import.md) / [استيراد مشروع إلى VSCode](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import-vscode.md) .
         -   قبل إرسال التعليمات البرمجية الخاصة بك ، من الأفضل تشغيل `mvn verify` محليًا لتوفير الوقت. لا أعرف كيف؟ انظر [التحقق محليًا في IDEA](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/run-mvn-verify-idea.md) / [تحقق محليًا في VSCode](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   غير موصى به على الإطلاق: يمكنك [النقر هنا لتنزيل رمز مضغوط](https://codeload.github.com/ByteLegendQuest/java-is-leap-year/zip/refs/heads/main) إذا كنت لا تحب عمليات `git` .
-    -   أو: إذا كنت واثقًا بدرجة كافية من كتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
+    -   أو: إذا كنت واثقًا بدرجة كافية لكتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
     -   أو: إذا كنت معتادًا على GitHub ، فيمكنك تفرع [الريبو](https://github.com/ByteLegendQuest/java-is-leap-year) وإنهاء التحدي وإنشاء طلب سحب.
 -   سيتحقق الروبوت من العلاقات العامة الخاصة بك ويخبرك إذا أنجزت التحدي.
 -   ارجع إلى [ByteLegend وتابع](https://bytelegend.com) رحلة بطلك.
@@ -200,13 +210,15 @@ Se `year` for um ano bissexto, retorne `true` ; caso contrário, retorne `false`
 
 Por exemplo, 1999 não é um ano bissexto; 2000 é um ano bissexto; 1900 não é um ano bissexto.
 
+**Nota: `if` / `else` não são permitidos; somente operadores lógicos são permitidos.**
+
 -   Você pode realizar este desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-is-leap-year` para baixar o código, conclua o desafio em seu IDE local e copie/cole/envie a resposta no editor da web.
         -   Se você não sabe como, você pode clicar em [import project into IDEA](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-is-leap-year/zip/refs/heads/main) se não gostar das operações do `git` .
     -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
-    -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-is-leap-year) , finalizar o desafio e criar um pull request.
+    -   Ou: se você estiver familiarizado com o GitHub, você pode fazer o fork [do repo](https://github.com/ByteLegendQuest/java-is-leap-year) , finalizar o desafio e criar uma pull request.
 -   O bot verificará seu PR e informará se você cumprir o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
@@ -234,6 +246,8 @@ Suatu tahun disebut tahun kabisat jika: Jika tahun tersebut dapat dibagi 400, ma
 Jika `year` adalah tahun kabisat, return `true` ; jika tidak, kembalikan `false` .
 
 Misalnya, 1999 bukan tahun kabisat; 2000 adalah tahun kabisat; 1900 bukan tahun kabisat.
+
+**Catatan: `if` / `else` tidak diperbolehkan; hanya operator logika yang diperbolehkan.**
 
 -   Anda dapat menyelesaikan tantangan ini melalui cara apa pun di bawah ini:
     -   Direkomendasikan untuk pemula: jalankan `git clone https://github.com/ByteLegendQuest/java-is-leap-year` untuk mengunduh kode, selesaikan tantangan di IDE lokal Anda, lalu salin/tempel/kirim jawabannya di editor web.
@@ -270,6 +284,8 @@ Si l' `year` est une année bissextile, retourne `true` ; sinon, renvoie `false`
 
 Par exemple, 1999 n'est pas une année bissextile ; 2000 est une année bissextile ; 1900 n'est pas une année bissextile.
 
+**Remarque : `if` / `else` ne sont pas autorisés ; seuls les opérateurs logiques sont autorisés.**
+
 -   Vous pouvez accomplir ce défi de n'importe quelle manière ci-dessous:
     -   Recommandé pour les débutants : exécutez `git clone https://github.com/ByteLegendQuest/java-is-leap-year` pour télécharger le code, terminez le défi dans votre IDE local, puis copiez/collez/soumettez la réponse dans l'éditeur Web.
         -   Si vous ne savez pas comment, vous pouvez cliquer sur [importer le projet dans IDEA](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import.md) / [importer le projet dans VSCode](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import-vscode.md) .
@@ -304,6 +320,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 `year`がうるう年の場合は、 `true`を返します。それ以外の場合は、 `false`を返します。
 
 たとえば、1999年はうるう年ではありません。 2000年はうるう年です。 1900年はうるう年ではありません。
+
+**注： `if` / `else`は許可されていません。論理演算子のみが許可されます。**
 
 -   この課題は、以下のいずれかの方法で達成できます。
     -   初心者に推奨： `git clone https://github.com/ByteLegendQuest/java-is-leap-year`を実行してコードをダウンロードし、ローカルIDEでチャレンジを終了してから、Webエディターで回答をコピー/貼り付け/送信します。
@@ -340,13 +358,15 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 Например, 1999 год не високосный; 2000 год високосный; 1900 год не високосный.
 
+**Примечание: `if` / `else` не разрешены; разрешены только логические операторы.**
+
 -   Вы можете выполнить эту задачу любым способом, указанным ниже:
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-is-leap-year` , чтобы загрузить код, выполните задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редакторе.
         -   Если вы не знаете как, вы можете нажать [импортировать проект в IDEA](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import.md) / [импортировать проект в VSCode](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Перед отправкой кода вам лучше запустить `mvn verify` локально, чтобы сэкономить время. Не знаете как? См. « [Проверить локально в IDEA](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/run-mvn-verify-idea.md) / [проверить локально в VSCode»](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/run-mvn-verify-vscode.md) .
-    -   Крайне не рекомендуется: вы можете [нажать здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-is-leap-year/zip/refs/heads/main) , если вам не нравятся операции `git` .
+    -   Крайне не рекомендуется: вы можете [щелкнуть здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-is-leap-year/zip/refs/heads/main) , если вам не нравятся операции `git` .
     -   Или: если вы достаточно уверены, чтобы писать код напрямую в веб-редакторе, вперед.
-    -   Или: если вы знакомы с GitHub, вы можете разветвить [репозиторий](https://github.com/ByteLegendQuest/java-is-leap-year) , выполнить задание и создать запрос на включение.
+    -   Или: если вы знакомы с GitHub, вы можете разветвить [репо](https://github.com/ByteLegendQuest/java-is-leap-year) , выполнить задание и создать запрос на включение.
 -   Бот проверит ваш PR и сообщит, выполнили ли вы задание.
 -   Вернитесь в [ByteLegend](https://bytelegend.com) и продолжайте свое героическое путешествие.
 
@@ -374,6 +394,8 @@ Ein Jahr ist ein Schaltjahr, wenn: Wenn das Jahr durch 400 teilbar ist, ist es e
 Wenn `year` ein Schaltjahr ist, `true` zurückgeben ; andernfalls geben Sie `false` zurück.
 
 1999 ist beispielsweise kein Schaltjahr; 2000 ist ein Schaltjahr; 1900 ist kein Schaltjahr.
+
+**Hinweis: `if` / `else` sind nicht erlaubt; nur logische Operatoren sind erlaubt.**
 
 -   Sie können diese Herausforderung auf eine der folgenden Arten meistern:
     -   Empfohlen für Anfänger: Führen Sie `git clone https://github.com/ByteLegendQuest/java-is-leap-year` aus, um den Code herunterzuladen, beenden Sie die Herausforderung in Ihrer lokalen IDE und kopieren/fügen Sie dann die Antwort im Web-Editor ein/übermitteln Sie sie.
@@ -410,6 +432,8 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 
 예를 들어, 1999년은 윤년이 아닙니다. 2000년은 윤년입니다. 1900년은 윤년이 아니다.
 
+**참고: `if` / `else` 는 허용되지 않습니다. 논리 연산자만 허용됩니다.**
+
 -   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
     -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-is-leap-year` 를 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출합니다.
         -   방법을 모르는 경우 [프로젝트를 IDEA로](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import.md) [가져오기 / 프로젝트를 VSCode로 가져](https://github.com/ByteLegendQuest/java-is-leap-year/blob/main/docs/en/clone-and-import-vscode.md) 오기를 클릭할 수 있습니다.
@@ -444,6 +468,8 @@ Un anno è bisestile se: Se l'anno può essere diviso per 400, è bisestile. Se 
 Se `year` è bisestile, restituisce `true` ; in caso contrario, restituisce `false` .
 
 Ad esempio, il 1999 non è un anno bisestile; Il 2000 è un anno bisestile; Il 1900 non è un anno bisestile.
+
+**Nota: `if` / `else` non sono consentiti; sono ammessi solo operatori logici.**
 
 -   Puoi portare a termine questa sfida in qualsiasi modo di seguito:
     -   Consigliato per i principianti: esegui `git clone https://github.com/ByteLegendQuest/java-is-leap-year` per scaricare il codice, completa la sfida nel tuo IDE locale, quindi copia/incolla/invia la risposta nell'editor web.
