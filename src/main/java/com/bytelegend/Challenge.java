@@ -22,6 +22,6 @@ public class Challenge {
      * <p>**Note: `if`/`else` are not allowed; only logical operators are allowed.**
      */
     public static boolean isLeapYear(int year) {
-        return false;
+        return (year % 400 == 0 && year % 100 == 0) ? true : (year % 4 == 0) ? true : false;
     }
 }
