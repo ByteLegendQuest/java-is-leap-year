@@ -19,9 +19,10 @@ public class Challenge {
      *
      * <p>For example, 1999 is not a leap year; 2000 is a leap year; 1900 is not a leap year.
      *
-     * <p>**Note: `if`/`else` are not allowed; only logical operators are allowed.**
+     * <p>**Note: `if`/`else` are not allowed; only logical operators are allowed.
+     year % 4 == 0 && year % 100 != 0 || year % 400 == 0**
      */
     public static boolean isLeapYear(int year) {
-        return false;
+        return (year % 100 == 0 && year % 400 == 0) || year % 4 == 0;
     }
 }
