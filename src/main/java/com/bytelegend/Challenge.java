@@ -1,3 +1,4 @@
+import java.util.Calendar;
 package com.bytelegend;
 
 public class Challenge {
@@ -22,6 +23,9 @@ public class Challenge {
      * <p>**Note: `if`/`else` are not allowed; only logical operators are allowed.**
      */
     public static boolean isLeapYear(int year) {
-        return false;
+        Calendar c = Calendar.getInstance();
+		c.set(year, 2, 1);
+		c.add(Calendar.DATE, -1);
+		return c.get(Calendar.DATE) == 29;
     }
 }
