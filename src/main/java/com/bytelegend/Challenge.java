@@ -22,6 +22,6 @@ public class Challenge {
      * <p>**Note: `if`/`else` are not allowed; only logical operators are allowed.**
      */
     public static boolean isLeapYear(int year) {
-        return java.time.Year.of(year).isLeap();
+        return false;
     }
 }
